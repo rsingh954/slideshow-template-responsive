@@ -15,7 +15,7 @@ items.forEach((elem) =>
   })
 );
 function resizeNav(){
-  if(innerWidth < 450){
+  if(innerWidth < 830){
     const a = document.querySelectorAll('.nav_link')
     a.forEach((elem) =>{
       elem.textContent = null;
